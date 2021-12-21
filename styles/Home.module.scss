@@ -1,10 +1,27 @@
 .container {
-  padding: 0 2rem;
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.postitem {
+  padding: 10px 0;
+}
+
+.goback {
+  text-align: center;
+  align-self: flex-start;
+  cursor: pointer;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
